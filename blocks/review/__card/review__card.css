@@ -1,0 +1,13 @@
+.review__card {
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    text-align: center;
+    padding: 25px 24px 25px;
+}
+
+@media screen and (max-width: 665px) {
+    .review__card {
+        padding: 20px 42px 15px 56px;
+    }
+}

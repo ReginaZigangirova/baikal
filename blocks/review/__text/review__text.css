@@ -1,0 +1,18 @@
+.review__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 141.18%;
+    text-align: left;
+    letter-spacing: 0.03em;
+    color: #686868;
+    margin: 29px 0 0;
+}
+
+@media screen and (max-width: 665px) {
+    .review__text {
+        font-size: 12px;
+        margin: 15px 0 0;
+        max-width: 174px;
+    }
+}

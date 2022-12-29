@@ -1,0 +1,13 @@
+@media screen and (max-width: 1000px) {
+    .baikal__title {
+        width: 299px;
+        height: 99px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .baikal__title {
+        width: 227px;
+        height: 52px;
+    }
+}

@@ -1,0 +1,22 @@
+.header__menu-btn {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .header__menu-btn {
+        display: block;
+        cursor: pointer;
+        background-image: url(../../../images/btn.svg);
+        width: 20px;
+        height: 20px;
+        background-size: 20px 20px;
+        background-repeat: no-repeat;
+        background-position: center;
+        border: none;
+    }
+    
+    .header__menu-btn.active {
+        background-image: url(../../../images/close.svg);
+        background-color: transparent;
+    }
+}

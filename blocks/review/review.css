@@ -1,0 +1,15 @@
+.review {
+    padding: 100px 105px 0;
+}
+
+@media screen and (max-width: 1350px) {
+    .review {
+        padding: 100px 50px 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .review {
+        padding: 60px 24px 0;
+    }
+}

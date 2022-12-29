@@ -1,0 +1,16 @@
+.header__menu-list-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    color: #686868;
+    margin: 20px 0 0;
+    cursor: pointer;
+}
+
+.header__menu-list-item:first-of-type {
+    margin: 0;
+    font-weight: 800;
+    color: #2F70D9;
+}

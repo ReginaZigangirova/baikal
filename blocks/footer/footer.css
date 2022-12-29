@@ -1,0 +1,16 @@
+.footer {
+    background: #282828;
+    padding: 40px 105px 25px;
+}
+
+@media screen and (max-width: 1350px) {
+    .footer {
+        padding: 40px 50px 25px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .footer {
+        padding: 40px 55px 25px;
+    }
+}

@@ -1,0 +1,29 @@
+.header__list-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    color: #686868;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.header__list-item:first-of-type {
+    margin: 0;
+    color: #2F70D9;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 1350px) {
+    .header__list-item {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .header__list-item {
+        margin-left: 15px;
+        font-size: 16px;
+    }
+}

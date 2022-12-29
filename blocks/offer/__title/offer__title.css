@@ -1,0 +1,17 @@
+.offer__title {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    letter-spacing: 0.03em;
+    margin: 0;
+    color: #2F70D9;
+}
+
+@media screen and (max-width: 665px) {
+    .offer__title {
+        font-size: 30px;
+        line-height: 38px;
+    }
+}

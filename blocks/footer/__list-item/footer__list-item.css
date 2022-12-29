@@ -1,0 +1,14 @@
+.footer__list-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    margin: 15px 0 0;
+   color: #FFFFFF;
+   cursor: pointer;
+}
+
+.footer__list-item:first-of-type {
+    margin: 0;
+}

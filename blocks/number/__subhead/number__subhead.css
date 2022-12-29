@@ -1,0 +1,17 @@
+.number__subhead {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    margin: 30px 0 0;
+    color: #2F70D9;
+    text-align: center;
+}
+
+@media screen and (max-width: 665px) {
+    .number__subhead {
+        margin: 20px 0 0;
+    }
+}

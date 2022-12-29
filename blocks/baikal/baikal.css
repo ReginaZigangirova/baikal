@@ -1,0 +1,21 @@
+.baikal {
+    padding: 0 105px 0 105px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1350px) {
+    .baikal {
+        padding: 0 50px 0 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .baikal {
+        padding: 0 24px 0 24px;
+        justify-content: start;
+    }
+}

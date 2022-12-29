@@ -1,0 +1,9 @@
+.footer__arrow {
+    margin-top: 74px;
+}
+
+@media screen and (max-width: 1000px) {
+    .footer__arrow {
+        display: none;
+    }
+}

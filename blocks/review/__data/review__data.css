@@ -1,0 +1,15 @@
+.review__data {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 141.18%;
+    letter-spacing: 0.03em;
+    margin: 28px 0 0;
+    color: #686868;
+}
+
+@media screen and (max-width: 665px) {
+    .review__data {
+        margin: 15px 0 0;
+    }
+}

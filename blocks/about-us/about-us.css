@@ -1,0 +1,26 @@
+.about-us {
+    padding: 100px 105px 0 105px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 1350px) {
+    .about-us {
+        padding: 100px 50px 0 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .about-us {
+        padding: 60px 24px 0;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .about-us {
+        justify-content: start;
+    }
+}

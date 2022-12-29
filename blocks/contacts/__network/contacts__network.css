@@ -1,0 +1,8 @@
+.contacts__network {
+    margin-right: 30px;
+    margin-top: 25px;
+}
+
+.contacts__network:last-of-type {
+    margin-right: 0;
+}

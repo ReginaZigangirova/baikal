@@ -1,0 +1,16 @@
+.contacts__address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 141.18%;
+    letter-spacing: 0.03em;
+    color: #686868;
+    margin: 10px 0 0;
+}
+
+@media screen and (max-width: 665px) {
+    .contacts__address {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+}

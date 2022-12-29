@@ -1,0 +1,11 @@
+.number__price {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+    color: #D95845;
+    text-align: center;
+    margin: 10px 0 0;
+}

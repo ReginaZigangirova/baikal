@@ -1,0 +1,26 @@
+.review__container {
+    grid-template-columns: repeat(auto-fit, 285px);
+    grid-column-gap: 30px;
+    display: grid;
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 1350px) {
+    .review__container {
+        grid-row-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .review__container {
+        grid-row-gap: 15px;
+        margin-top: 30px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .review__container {
+        justify-content: start;
+    }
+}

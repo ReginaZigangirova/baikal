@@ -1,0 +1,29 @@
+.baikal__text {
+    margin: 40px 0 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 141.18%;
+    letter-spacing: 0.03em;
+    color: #686868;
+    max-width: 483px;
+}
+
+@media screen and (max-width: 1350px) {
+    .baikal__text {
+        max-width: 924px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .baikal__text {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .baikal__text {
+        max-width: 272px;
+        font-size: 12px;
+    }
+}

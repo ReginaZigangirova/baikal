@@ -1,0 +1,9 @@
+.footer__network {
+    width: 30px;
+    height: 30px;
+    margin: 15px 10px 0 0;
+}
+
+.footer__network:last-child {
+    margin-right: 0;
+}

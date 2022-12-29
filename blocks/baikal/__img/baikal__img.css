@@ -1,0 +1,20 @@
+@media screen and (max-width: 1350px) {
+    .baikal__img {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .baikal__img {
+        width: 400px;
+        height: 360px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .baikal__img {
+        width: 272px;
+        height: 232px;
+    }
+}

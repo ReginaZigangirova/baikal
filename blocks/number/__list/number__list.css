@@ -1,0 +1,11 @@
+.number__list {
+    padding-left: 15px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+@media screen and (max-width: 665px) {
+    .number__list {
+        margin: 20px 0 0;
+    }
+}

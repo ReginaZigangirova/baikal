@@ -1,0 +1,20 @@
+@media screen and (max-width: 1350px) {
+    .about-us__img { 
+        margin: 50px 0 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .about-us__img { 
+        margin: 20px 0 0;
+        width: 400px;
+        height: 285px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .about-us__img {
+        width: 272px;
+        height: 157px;
+    }
+}

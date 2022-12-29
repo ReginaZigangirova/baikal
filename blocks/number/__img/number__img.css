@@ -1,0 +1,5 @@
+@media screen and (max-width: 1350px) {
+    .number__img {
+        display: none;
+    }
+}

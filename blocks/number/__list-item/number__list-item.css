@@ -1,0 +1,14 @@
+.number__list-item {
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 141.18%;
+    letter-spacing: 0.03em;
+    color: #686868;
+    margin-top: 13px;
+}
+
+.number__list-item:first-of-type {
+    margin: 0;
+}

@@ -1,0 +1,19 @@
+.footer__number {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    margin: 15px 0 0;
+    color: #FFFFFF;
+}
+
+.footer__number:last-of-type {
+    margin: 5px 0 0;
+}
+
+@media screen and (max-width: 665px) {
+    .footer__number {
+        margin-top: 5px;
+    }
+}

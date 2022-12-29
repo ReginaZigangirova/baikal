@@ -1,0 +1,28 @@
+.baikal__button {
+    margin: 40px 0 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    padding: 17px 48px 18px 48px;
+    background: #D95845;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    .baikal__button {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .baikal__button {
+        padding: 18px 21px 20px 22px;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,46 @@
+.footer__button {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 7px 28px 8px 28px;
+    letter-spacing: 0.03em;
+    background: #D95845;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 20px 0 0;
+}
+
+.footer__button:last-child {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    cursor: pointer;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+    padding: 8px 15px 7px 15px;
+    border: 2px solid #2F70D9;
+    border-radius: 5px;
+    background: transparent;
+    margin: 15px 0 0;
+    width: 210px;
+}
+
+@media screen and (max-width: 1000px) {
+    .footer__button{
+        margin: 20px 0 15px;
+    }
+    .footer__button:last-child {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .footer__button{
+        margin: 10px 0 15px;
+    }
+}
